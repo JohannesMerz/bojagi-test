@@ -17,7 +17,7 @@ export default function(props) {
     <Container>
       <Box color="green">green><Button color="yellow">click</Button></Box>
       <Box color="yellow">yellow</Box>
-      <BlackBox>Hi!</BlackBox>
+      <BlackBox>unrelated!!</BlackBox>
       <BoxWithButtons color="white" buttons={[{text: 'stop', color: 'red'},{text: 'ready', color: 'yellow'}, {text: 'go', color: 'green'}]}/>
     </Container>
   )
