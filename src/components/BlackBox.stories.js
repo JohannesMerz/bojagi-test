@@ -3,7 +3,7 @@ import BlackBox from './BlackBox';
 
 export default { title: 'BlackBox' };
 
-export const hello = () => <BlackBox color="yellow">Shiny Sunny Sun</BlackBox>;
+export const hello = () => <BlackBox color="yellow">2</BlackBox>;
 
 export const bye = () => <BlackBox color="green">Bye :(!</BlackBox>
 
