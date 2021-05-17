@@ -20,10 +20,10 @@ jobs:
             - /home/circleci/.cache/yarn/v1
       - run: 
           name: bojagi dev upload
-          command: BOJAGI_API_URL=https://upload.dev.bojagi.io BOJAGI_SECRET=$DEV_BOJAGI_SECRET yarn bojagi deploy
+          command: BOJAGI_API_URL=https://upload.dev.bojagi.io BOJAGI_SECRET=$DEV_BOJAGI_SECRET yarn bojagi deploy -s public
       - run:
           name: bojagi upload
-          command: yarn bojagi deploy
+          command: yarn bojagi deploy -s public
 workflows:
   version: 2
   bojagi-upload:

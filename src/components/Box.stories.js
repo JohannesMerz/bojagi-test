@@ -3,7 +3,11 @@ import Box from './Box';
 
 export default { title: 'Box' };
 
-export const yellow = () => <Box color="yellow">I am a yellow Box!</Box>;
+export const yellow = () => 
+<Box color="yellow">
+  I am a yellow box with a picture!
+  <img src="bojagi.logo.png" alt="my image" />
+</Box>;
 
 export const green = () => <Box color="green">I am so green!</Box>
 
