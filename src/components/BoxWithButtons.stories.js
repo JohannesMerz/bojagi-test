@@ -1,5 +1,5 @@
 import React from 'react';
-import BoxWithButtons from './BoxWithButtonss'
+import BoxWithButtons from './BoxWithButtons'
 
 export default { title: 'BoxWithButtonss' };
 
